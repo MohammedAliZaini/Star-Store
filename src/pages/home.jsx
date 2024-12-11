@@ -1,4 +1,7 @@
 import "../pages/home.css";
+import glass from "../../public/images/glass.jpg";
+import tool from "../../public/images/tool.jpg";
+import typewriter from "../../public/images/typewriter.jpg";
 
 const Home = () => {
   return (
@@ -11,6 +14,10 @@ const Home = () => {
     <span className="key">m</span>
     <span className="key">e</span>
     <span className="key">!</span>
+    <br/>
+    <img className="glass_image" src={glass}/>
+    <img className="typewriter_image" src={typewriter}/>
+    <img className="tool_image" src={tool}/>
     </>
   )
 }
