@@ -2,15 +2,15 @@ body {
   background-color: #111;
 }
 
-.arrow {
+.right-arrow {
   cursor: pointer;
-  height: 120px;
-  left: 50%;
+  height: 140px;
+  left: 82%;
   position: absolute;
-  top: 50%;
+  top: 70%;
   transform: translateX(-50%) translateY(-50%);
   transition: transform .1s;
-  width: 80px;
+  width: 86px;
   
   $transition-time: .15s;
   

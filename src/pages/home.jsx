@@ -2,7 +2,8 @@ import "../pages/home.css";
 import glass from "../../public/images/glass.jpg";
 import tool from "../../public/images/tool.jpg";
 import typewriter from "../../public/images/typewriter.jpg";
-import Carousel_arrow from "../components/Carousel_arrow";"../components/Carousel_arrow.jsx";
+import Carousel_arrow_right from "../components/Carousel_arrow_right";"../components/Carousel_arrow.jsx";
+import Carousel_arrow_left from "../components/Carousel_arrow_left";
 
 const Home = () => {
   return (
@@ -16,10 +17,11 @@ const Home = () => {
     <span className="key">e</span>
     <span className="key">!</span>
     <br/>
+    <Carousel_arrow_left/>
     <img className="glass_image" src={glass}/>
     <img className="typewriter_image" src={typewriter}/>
     <img className="tool_image" src={tool}/>
-    <Carousel_arrow/>
+    <Carousel_arrow_right/>
     </>
   )
 }
